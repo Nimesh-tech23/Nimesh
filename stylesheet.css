@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2cfff4;
+    padding: 16px 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    position: relative;
+  }
+
+  .nav-links a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .nav-links a:hover {
+    color: rgb(85, 36, 36);
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+  }
+  .mobile-image {
+    display: flex;
+    height: 100vb;
+    width: 50vb;
+
+  }
+  .content{
+    display: inline  ;
+    justify-content: center;
+    align-items: center;
+    width: 50vb;
+
+  }
