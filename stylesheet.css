@@ -40,15 +40,84 @@ body {
     object-fit: cover;
   }
   .mobile-image {
-    display: flex;
-    height: 100vb;
-    width: 50vb;
+    display: inline;
+    height: 330px;
+    width: 48vw;
+    float: right;
+
 
   }
   .content{
-    display: inline  ;
+    display: flex; ;
     justify-content: center;
     align-items: center;
-    width: 50vb;
-
+    width: 50vw;
+    float: left;
   }
+
+  .btn{
+    background-color: #38f527;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .contact-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contact-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.form input:focus, .form textarea:focus {
+    outline: none;
+    border-color: #38f527;
+    box-shadow: 0 0 5px rgba(56, 245, 39, 0.5);
+}
+
+.submit-btn {
+    background-color: #38f527;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 5PX;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2dbb1e;
+}
