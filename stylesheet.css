@@ -115,6 +115,11 @@ body {
   padding: 2rem;
   text-align: center;
 }
+.MY-Project h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-shadow: #4d4d4d 5px 5px 5px;
+}
 
 .project-container {
   padding-top: 2rem;
@@ -243,6 +248,8 @@ body {
 .about-me h1 {
   margin-bottom: 1rem;
   color: #0d47a1;
+  font-size: 2rem;
+  text-shadow: #426caa 5px 5px 5px;
 }
 .about-me p {
   max-width: 600px;
@@ -270,4 +277,42 @@ body {
   margin: 0 auto;
   text-align: left;
   padding: 1rem;
+}
+.intro{
+  align-items: center;
+  margin-right: 2rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: #e3f2fd;
+  position: relative;
+  top: 30px;
+  margin-bottom: 60px;
+}
+.intro h1 {
+  color: #0d47a1;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  text-shadow: #426caa 5px 5px 5px;
+}
+.intro p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+}
+.intro button {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.intro button:hover {
+  background-color: #16a085;
 }
