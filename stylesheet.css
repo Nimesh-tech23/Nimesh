@@ -31,12 +31,40 @@ body {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
+  text-align: center;
+  position: relative;
+  top: 10px;
 }
-
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 .nav-links a:hover {
   color: #1abc9c;
   font-family: 'Lobster', cursive;
 }
+
+.nav-links a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #108f75;
+  margin: 0 auto;
+  margin-top: 5px;  
+  transition: width 0.3s ease;
+  display: block;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
 
 .logo {
   height: 50px;
