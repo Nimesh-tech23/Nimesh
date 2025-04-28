@@ -23,7 +23,9 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
+
 
 .nav-links a {
   color: #fff;
@@ -45,6 +47,15 @@ body {
   align-items: center;
   gap: 2rem;
 }
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #ffffff;
+  font-size: 17px;
+  position: relative;
+  bottom: 8px;
+}
 .nav-links a:hover {
   color: #1abc9c;
   font-family: 'Lobster', cursive;
@@ -65,14 +76,43 @@ body {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .nav-links ul {
+    display: none;
+    flex-direction: column;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 200px;
+  }
 
-.logo {
+  .nav-links ul.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    background: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+    border-radius: 3px;
+  }
+}
+
+.logo-img {
   height: 50px;
   border-radius: 50%;
 
 }
 
-.logo:hover {
+.logo-img:hover {
   transform: scale(1.5);
   transition: all 0.3s ease;
 }
@@ -344,3 +384,4 @@ body {
 .intro button:hover {
   background-color: #16a085;
 }
+
