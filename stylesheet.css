@@ -177,6 +177,65 @@ body {
   outline: none;
   box-shadow: 0 0 0 4px rgba(26, 188, 156, 0.5);
 }
+.My-service{
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  align-items: center;
+  margin: 3rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.My-service h1 {
+  margin-bottom: 1rem;
+  color: #0d47a1;
+  font-size: 2rem;
+  text-shadow: #426caa 5px 5px 5px;
+}
+.service-container{
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.service-card {
+  background-color: rgb(172, 177, 179);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+}
+.service-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  object-position: center;
+}
+#card1{
+  position: relative;
+  left: 20px;
+  transition: all 0.5s ease;
+
+}
+#card1:hover{
+  z-index: 3;
+  bottom: 20px;
+  background-color: rgba(164, 172, 238, 0.5);
+}
+#card2{
+  position: relative;
+  left: 20px;
+  transition: all 0.5s ease;
+}
+#card2:hover{
+  z-index: 3;
+  bottom: 20px;
+  background-color: rgba(164, 172, 238, 0.5);
+
+}
+
 
 .MY-Project {
   background-color: #dceefc;
@@ -384,4 +443,3 @@ body {
 .intro button:hover {
   background-color: #16a085;
 }
-
