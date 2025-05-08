@@ -57,7 +57,7 @@ const projects = [
   
 ];
 const Container = document.getElementById("project-container");
-projects .forEach(project => { 
+projects.forEach(project => { 
   const card = document.createElement("div");
   card.className="project-card";
   card.innerHTML = `
@@ -68,3 +68,34 @@ projects .forEach(project => {
   Container.appendChild(card);
 }
 );
+
+const services= [
+  {
+    image: "image/p1.avif",
+    title: "Service 1",
+    description: "Building responsive and user-friendly websites using modern technologies.",
+    icon:'fa-solid fa-laptop-code',
+  },
+  {
+    image: "image/p2.avif",
+    title: "Service 2",
+    description: "Creating mobile applications that provide a seamless user experience.",
+    icon:'fa-solid fa-mobile-alt',
+  },
+  
+];
+const serviceContainer = document.getElementById("service-container");
+services.forEach(service => { 
+  const card = document.createElement("div");
+  card.className="service-card";
+
+  card.innerHTML = `
+    <img src="${service.image}" alt="${service.title}">
+    <i class="${service.icon}"></i>
+    <h3>${service.title}</h3>
+    <p>${service.description}</p>
+  `;
+  serviceContainer.appendChild(card);
+}
+);
+
