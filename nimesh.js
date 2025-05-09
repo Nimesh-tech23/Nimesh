@@ -2,7 +2,7 @@ const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navlinks');
 
 hamburger.addEventListener('click',()=>{
-  navLinks.classList.toggle('active');
+  navLinks.classList.toggle('actmmmmmmmmmmmmmmmive');
 });
 
 const text="Hi, I am Mr.NJT";
@@ -88,7 +88,6 @@ const serviceContainer = document.getElementById("service-container");
 services.forEach(service => { 
   const card = document.createElement("div");
   card.className="service-card";
-
   card.innerHTML = `
     <img src="${service.image}" alt="${service.title}">
     <i class="${service.icon}"></i>
