@@ -363,11 +363,17 @@ body {
 }
 .project-card a{
   text-decoration: none;
+  margin-top:10vh;
   color: #1abc9c;
   font-weight: bold;
   transition: color 0.3s ease;
 }
-.p
+.project-card a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #149178;
+}
 
 .project-card p {
 
