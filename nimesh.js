@@ -23,35 +23,41 @@ const projects = [
     image: "image/p1.avif",
     title: "Project 1",
     description: "Description of Project 1A creative mobile UI/UX project focusing on accessibility and performance.",
+    link: " https://nimesh-tech23.github.io/BMI/",
   },
   {
     image: "image/p2.avif",
     title: "Project 2",
     description: "Description of Project 2A creative mobile UI/UX project focusing on accessibility and performance.",
+    link: " https://nimesh-tech23.github.io/BMI/",
 
   },
   {
     image: "image/p1.avif",
     title: "Project 3",
     description: "Description of Project 3A creative mobile UI/UX project focusing on accessibility and performance.",
+    link: " https://nimesh-tech23.github.io/BMI/",
 
   },
   {
     image: "image/p2.avif",
     title: "Project 4",
     description: "Description of Project 3A creative mobile UI/UX project focusing on accessibility and performance.",
+    link: " https://nimesh-tech23.github.io/BMI/",
 
   },
   {
     image: "image/p1.avif",
     title: "Project 5",
     description: "Description of Project 3A creative mobile UI/UX project focusing on accessibility and performance.",
+    link: " https://nimesh-tech23.github.io/BMI/",
 
   },
   {
     image: "image/p2.avif",
     title: "Project 6",
     description: "Description of Project 3A creative mobile UI/UX project focusing on accessibility and performance.",
+    link: " https://nimesh-tech23.github.io/BMI/",
 
   },
   
@@ -64,6 +70,7 @@ projects.forEach(project => {
     <img src="${project.image}" alt="${project.title}">
     <h3>${project.title}</h3>
     <p>${project.description}</p>
+    <a href="${project.link}">View Project</a>
   `;
   Container.appendChild(card);
 }

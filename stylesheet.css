@@ -361,6 +361,13 @@ body {
   margin: 0.5rem 0;
 
 }
+.project-card a{
+  text-decoration: none;
+  color: #1abc9c;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.p
 
 .project-card p {
 
